@@ -85,6 +85,8 @@ El siguiente ejmplo devuelve un día dependiendo un número dado
     5 Viernes
     6 Sabado*/
 
+    console.log((hora>=6 && hora<=18) ? "Buenos dias": (hora>=19 && hora<=24 || hora>=1 && hora<=5) ? "Buenas noches" : "No es una hora valida" )
+
 console.log("-----------------switch/case----------------------")
 
 let dia=3
